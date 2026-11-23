@@ -1,16 +1,28 @@
-# Scale institutional knowledge using Copilot Spaces
+# OctoAcme Project Management Docs
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+This README is the starting point for OctoAcme’s project-management guidance. The documents cover the project lifecycle from initiation through delivery, release, and continuous improvement.
 
-Hey 9908085978083!
+## Project management process summary
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+OctoAcme uses a customer-first, iterative approach with clear ownership and data-informed decisions. Work moves through five stages:
 
-Remember, it's self-paced so feel free to take a break! ☕️
+1. **Initiation:** Validate the business need, define measurable success criteria, identify stakeholders and resources, capture initial risks, and agree whether to proceed.
+2. **Planning:** Turn approved work into a prioritized, estimated backlog with acceptance criteria, a Definition of Done, milestones, a release plan, and identified dependencies.
+3. **Execution and tracking:** Deliver in small increments using a project board, regular team syncs and demos, pull-request review, automated checks, and appropriate testing. Track progress and escalate blockers.
+4. **Release:** Deploy and verify changes, communicate the release, and follow the documented deployment and incident practices.
+5. **Close and improve:** Capture outcomes and lessons in a blameless retrospective, then track follow-up actions.
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/9908085978083/scale-institutional-knowledge-using-copilot-spaces/issues/1)
+Project Managers coordinate delivery, schedules, risks, and communications; Product Managers define outcomes and priorities; developers build and test; QA validates quality; and stakeholders provide input and approvals. The team uses project artifacts such as a charter, backlog, release plan, risk register, and retrospective notes to keep decisions and status visible.
 
----
+Communication is supported by regular PM and Product Manager alignment, delivery-team standups and syncs, demos, stakeholder updates, and ad-hoc escalation when needed. The risk and communication guide provides status and incident communication practices.
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+## Documentation
 
+- [Project Management Overview](docs/octoacme-project-management-overview.md) — Principles, roles, artifacts, lifecycle, and communication cadence.
+- [Project Initiation](docs/octoacme-project-initiation.md) — One-pager, stakeholder alignment, initial risks, and the go/no-go decision.
+- [Project Planning](docs/octoacme-project-planning.md) — Backlog creation, estimation, Definition of Done, dependencies, and milestones.
+- [Execution and Tracking](docs/octoacme-execution-and-tracking.md) — Team rhythm, board workflow, pull requests, testing, metrics, and blocker escalation.
+- [Risks and Communication](docs/octoacme-risks-and-communication.md) — Risk lifecycle, status updates, incident communications, and escalation paths.
+- [Release and Deployment](docs/octoacme-release-and-deployment.md) — Release requirements, deployment checklist, rollback guidance, and release notes.
+- [Retrospective and Continuous Improvement](docs/octoacme-retrospective-and-continuous-improvement.md) — Retrospectives, learnings, and improvement actions.
+- [Roles and Personas](docs/octoacme-roles-and-personas.md) — Role responsibilities, goals, communication patterns, and personas.
